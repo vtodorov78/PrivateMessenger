@@ -11,6 +11,7 @@
 		7685FF322C6A62830098BA1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685FF312C6A62830098BA1B /* ContentView.swift */; };
 		7685FF342C6A62860098BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7685FF332C6A62860098BA1B /* Assets.xcassets */; };
 		7685FF372C6A62860098BA1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7685FF362C6A62860098BA1B /* Preview Assets.xcassets */; };
+		76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F996682C6B43C6007E1BB0 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7685FF312C6A62830098BA1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7685FF332C6A62860098BA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7685FF362C6A62860098BA1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76F996682C6B43C6007E1BB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,11 @@
 		7685FF2E2C6A62830098BA1B /* PrivateMessenger */ = {
 			isa = PBXGroup;
 			children = (
-				7685FF2F2C6A62830098BA1B /* PrivateMessengerApp.swift */,
-				7685FF312C6A62830098BA1B /* ContentView.swift */,
+				76F996642C6B433E007E1BB0 /* App */,
+				76F996602C6B4326007E1BB0 /* Extensions */,
+				76F996632C6B433B007E1BB0 /* Core */,
+				76F996622C6B4338007E1BB0 /* Model */,
+				76F996612C6B4335007E1BB0 /* Service */,
 				7685FF332C6A62860098BA1B /* Assets.xcassets */,
 				7685FF352C6A62860098BA1B /* Preview Content */,
 			);
@@ -65,6 +70,68 @@
 				7685FF362C6A62860098BA1B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76F996602C6B4326007E1BB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		76F996612C6B4335007E1BB0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		76F996622C6B4338007E1BB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F996632C6B433B007E1BB0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				76F996652C6B4388007E1BB0 /* Authentication */,
+				76F996662C6B4397007E1BB0 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		76F996642C6B433E007E1BB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7685FF2F2C6A62830098BA1B /* PrivateMessengerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		76F996652C6B4388007E1BB0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				76F996672C6B43B1007E1BB0 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		76F996662C6B4397007E1BB0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7685FF312C6A62830098BA1B /* ContentView.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		76F996672C6B43B1007E1BB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76F996682C6B43C6007E1BB0 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */,
 				7685FF322C6A62830098BA1B /* ContentView.swift in Sources */,
 				7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */,
 			);
