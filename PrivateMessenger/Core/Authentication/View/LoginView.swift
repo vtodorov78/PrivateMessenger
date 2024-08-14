@@ -11,10 +11,10 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     
-    
     var body: some View {
         NavigationStack {
             VStack {
+                Spacer()
                 // logo image
                 Image("messenger")
                     .resizable()
@@ -93,11 +93,12 @@ struct LoginView: View {
                 
                 Spacer()
                 
-                // sign in link
+                // sign up link
                 Divider()
                 
                 NavigationLink {
-                    Text("Sign up View")
+                    RegistrationView()
+                        .navigationBarBackButtonHidden()
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")
