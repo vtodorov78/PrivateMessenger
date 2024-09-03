@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		76165A642C6D461700A804B5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A632C6D461700A804B5 /* RegistrationView.swift */; };
 		76165A672C6D4B7C00A804B5 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A662C6D4B7C00A804B5 /* Inbox.swift */; };
+		767252482C874F5500268C52 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767252472C874F5500268C52 /* NewMessageView.swift */; };
 		7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685FF2F2C6A62830098BA1B /* PrivateMessengerApp.swift */; };
 		7685FF322C6A62830098BA1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685FF312C6A62830098BA1B /* ContentView.swift */; };
 		7685FF342C6A62860098BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7685FF332C6A62860098BA1B /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		76165A632C6D461700A804B5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		76165A662C6D4B7C00A804B5 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		767252472C874F5500268C52 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		7685FF2C2C6A62830098BA1B /* PrivateMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7685FF2F2C6A62830098BA1B /* PrivateMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateMessengerApp.swift; sourceTree = "<group>"; };
 		7685FF312C6A62830098BA1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 				76C7DC1B2C7F8D74005A3694 /* InboxRowView.swift */,
 			);
 			path = Inbox;
+			sourceTree = "<group>";
+		};
+		767252462C874F1D00268C52 /* NewMessage */ = {
+			isa = PBXGroup;
+			children = (
+				767252472C874F5500268C52 /* NewMessageView.swift */,
+			);
+			path = NewMessage;
 			sourceTree = "<group>";
 		};
 		7685FF232C6A62830098BA1B = {
@@ -124,6 +134,7 @@
 				76C7DC182C7F8A7A005A3694 /* ActiveNow */,
 				76F996652C6B4388007E1BB0 /* Authentication */,
 				76165A652C6D4B6900A804B5 /* Inbox */,
+				767252462C874F1D00268C52 /* NewMessage */,
 				76F996662C6B4397007E1BB0 /* Root */,
 			);
 			path = Core;
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C7DC1C2C7F8D74005A3694 /* InboxRowView.swift in Sources */,
+				767252482C874F5500268C52 /* NewMessageView.swift in Sources */,
 				76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */,
 				7685FF322C6A62830098BA1B /* ContentView.swift in Sources */,
 				7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */,
