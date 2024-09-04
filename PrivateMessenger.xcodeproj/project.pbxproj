@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		761577BD2C88928400698BDA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761577BC2C88928400698BDA /* ProfileViewModel.swift */; };
 		761577BF2C88968300698BDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761577BE2C88968300698BDA /* User.swift */; };
+		761577C22C88A38B00698BDA /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761577C12C88A38B00698BDA /* CircularProfileImageView.swift */; };
 		76165A642C6D461700A804B5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A632C6D461700A804B5 /* RegistrationView.swift */; };
 		76165A672C6D4B7C00A804B5 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A662C6D4B7C00A804B5 /* Inbox.swift */; };
 		767252482C874F5500268C52 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767252472C874F5500268C52 /* NewMessageView.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		761577BC2C88928400698BDA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		761577BE2C88968300698BDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		761577C12C88A38B00698BDA /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		76165A632C6D461700A804B5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		76165A662C6D4B7C00A804B5 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
 		767252472C874F5500268C52 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		761577C02C88A36400698BDA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				761577C12C88A38B00698BDA /* CircularProfileImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		76165A652C6D4B6900A804B5 /* Inbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 			children = (
 				76C7DC182C7F8A7A005A3694 /* ActiveNow */,
 				76F996652C6B4388007E1BB0 /* Authentication */,
+				761577C02C88A36400698BDA /* Components */,
 				76165A652C6D4B6900A804B5 /* Inbox */,
 				767252462C874F1D00268C52 /* NewMessage */,
 				767252492C8756D900268C52 /* Profile */,
@@ -284,6 +295,7 @@
 				767252482C874F5500268C52 /* NewMessageView.swift in Sources */,
 				76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */,
 				7685FF322C6A62830098BA1B /* ContentView.swift in Sources */,
+				761577C22C88A38B00698BDA /* CircularProfileImageView.swift in Sources */,
 				7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */,
 				76C7DC1A2C7F8A94005A3694 /* ActiveNowView.swift in Sources */,
 				761577BD2C88928400698BDA /* ProfileViewModel.swift in Sources */,
