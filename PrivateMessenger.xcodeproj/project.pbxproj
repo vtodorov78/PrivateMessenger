@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761577BD2C88928400698BDA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761577BC2C88928400698BDA /* ProfileViewModel.swift */; };
 		76165A642C6D461700A804B5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A632C6D461700A804B5 /* RegistrationView.swift */; };
 		76165A672C6D4B7C00A804B5 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A662C6D4B7C00A804B5 /* Inbox.swift */; };
 		767252482C874F5500268C52 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767252472C874F5500268C52 /* NewMessageView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		761577BC2C88928400698BDA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		76165A632C6D461700A804B5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		76165A662C6D4B7C00A804B5 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
 		767252472C874F5500268C52 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7672524E2C87593B00268C52 /* SettingsOptionsViewModel.swift */,
+				761577BC2C88928400698BDA /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				7685FF322C6A62830098BA1B /* ContentView.swift in Sources */,
 				7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */,
 				76C7DC1A2C7F8A94005A3694 /* ActiveNowView.swift in Sources */,
+				761577BD2C88928400698BDA /* ProfileViewModel.swift in Sources */,
 				76165A672C6D4B7C00A804B5 /* Inbox.swift in Sources */,
 				7672524F2C87593B00268C52 /* SettingsOptionsViewModel.swift in Sources */,
 				76165A642C6D461700A804B5 /* RegistrationView.swift in Sources */,
