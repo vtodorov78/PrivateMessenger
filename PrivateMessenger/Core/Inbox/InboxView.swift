@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Inbox: View {
+struct InboxView: View {
     @State private var showMessageView = false
     @State private var user = User.MOCK_USER
     
@@ -59,5 +59,5 @@ struct Inbox: View {
 }
 
 #Preview {
-    Inbox()
+    InboxView()
 }

@@ -21,7 +21,7 @@ enum SettingsOptionsViewModel: Int, CaseIterable, Identifiable {
         case .activeStatus:
             return "Active Status"
         case .accessibility:
-            return "Accessibility"
+            return "Accessibility"  
         case .privacy:
             return "Privacy and Safety"
         case .notifications:
