@@ -23,7 +23,7 @@ struct PrivateMessengerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ContentView()
         }
     }
 }

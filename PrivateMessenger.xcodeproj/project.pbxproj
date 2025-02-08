@@ -15,6 +15,7 @@
 		76165A672C6D4B7C00A804B5 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76165A662C6D4B7C00A804B5 /* InboxView.swift */; };
 		764801892D541784009A1F9B /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764801882D541784009A1F9B /* ChatMessageCell.swift */; };
 		7648018B2D541C18009A1F9B /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648018A2D541C18009A1F9B /* ChatBubble.swift */; };
+		766095F32D5754E30092C009 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766095F22D5754E30092C009 /* ContentViewModel.swift */; };
 		767252482C874F5500268C52 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767252472C874F5500268C52 /* NewMessageView.swift */; };
 		7672524D2C87570000268C52 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7672524C2C87570000268C52 /* ProfileView.swift */; };
 		7672524F2C87593B00268C52 /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7672524E2C87593B00268C52 /* SettingsOptionsViewModel.swift */; };
@@ -43,6 +44,7 @@
 		76165A662C6D4B7C00A804B5 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
 		764801882D541784009A1F9B /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		7648018A2D541C18009A1F9B /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		766095F22D5754E30092C009 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		767252472C874F5500268C52 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		7672524C2C87570000268C52 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		7672524E2C87593B00268C52 /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
@@ -99,6 +101,22 @@
 				76C7DC1B2C7F8D74005A3694 /* InboxRowView.swift */,
 			);
 			path = Inbox;
+			sourceTree = "<group>";
+		};
+		766095F02D5754B90092C009 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7685FF312C6A62830098BA1B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		766095F12D5754C60092C009 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				766095F22D5754E30092C009 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		767252462C874F1D00268C52 /* NewMessage */ = {
@@ -257,7 +275,8 @@
 		76F996662C6B4397007E1BB0 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				7685FF312C6A62830098BA1B /* ContentView.swift */,
+				766095F02D5754B90092C009 /* View */,
+				766095F12D5754C60092C009 /* ViewModel */,
 			);
 			name = Root;
 			sourceTree = "<group>";
@@ -349,6 +368,7 @@
 				768766512D5567DC00EFC65F /* RegistrationViewModel.swift in Sources */,
 				7672524D2C87570000268C52 /* ProfileView.swift in Sources */,
 				767252482C874F5500268C52 /* NewMessageView.swift in Sources */,
+				766095F32D5754E30092C009 /* ContentViewModel.swift in Sources */,
 				76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */,
 				761577C52C88B63F00698BDA /* ChatView.swift in Sources */,
 				768766532D5567FF00EFC65F /* AuthService.swift in Sources */,
