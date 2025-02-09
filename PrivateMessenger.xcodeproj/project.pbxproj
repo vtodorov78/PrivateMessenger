@@ -32,6 +32,7 @@
 		768766532D5567FF00EFC65F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768766522D5567FF00EFC65F /* AuthService.swift */; };
 		76C7DC1A2C7F8A94005A3694 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C7DC192C7F8A94005A3694 /* ActiveNowView.swift */; };
 		76C7DC1C2C7F8D74005A3694 /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C7DC1B2C7F8D74005A3694 /* InboxRowView.swift */; };
+		76C892482D58F53F008931BB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C892472D58F53F008931BB /* UserService.swift */; };
 		76F996692C6B43C6007E1BB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F996682C6B43C6007E1BB0 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		768766522D5567FF00EFC65F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		76C7DC192C7F8A94005A3694 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
 		76C7DC1B2C7F8D74005A3694 /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
+		76C892472D58F53F008931BB /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		76F996682C6B43C6007E1BB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,6 +229,7 @@
 		76F996612C6B4335007E1BB0 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				76C892472D58F53F008931BB /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				761577C22C88A38B00698BDA /* CircularProfileImageView.swift in Sources */,
 				7685FF302C6A62830098BA1B /* PrivateMessengerApp.swift in Sources */,
 				7687664F2D55679500EFC65F /* LoginViewModel.swift in Sources */,
+				76C892482D58F53F008931BB /* UserService.swift in Sources */,
 				76C7DC1A2C7F8A94005A3694 /* ActiveNowView.swift in Sources */,
 				761577BD2C88928400698BDA /* ProfileViewModel.swift in Sources */,
 				761577BF2C88968300698BDA /* User.swift in Sources */,
