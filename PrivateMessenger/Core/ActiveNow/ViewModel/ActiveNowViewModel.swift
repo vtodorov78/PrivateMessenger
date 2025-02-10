@@ -1,24 +1,24 @@
 //
-//  NewMessageViewModel.swift
+//  ActiveNowViewModel.swift
 //  PrivateMessenger
 //
-//  Created by Vladimir Todorov on 9.02.25.
+//  Created by Vladimir Todorov on 11.02.25.
 //
 
 import Foundation
 import FirebaseAuth
 
-@MainActor
-class NewMessageViewModel: ObservableObject {
+class ActiveNowViewModel: ObservableObject {
     @Published var users = [User]()
     
     init() {
         Task { try await fetchUsers() }
     }
     
-    func fetchUsers() async throws {
+    @MainActor
+    private func fetchUsers() async throws {
         guard let currentUid = Auth.auth().currentUser?.uid else { return }
-        let users = try await UserService.shared.fetchAllUsers()
+        let users = try await UserService.shared.fetchAllUsers(limit: 10)
         self.users = users.filter( { $0.id != currentUid })
     }
 }
